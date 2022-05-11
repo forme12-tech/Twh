@@ -63,7 +63,7 @@ ss:Button("Get All Items",function()
         end
 end)
  
-ss:Button("God Mode (Remove KillParts)",function()
+ss:Button("Remove Kill Parts",function()
     for i,v in pairs(game:GetService("Workspace").tower:GetDescendants()) do
         if v:IsA("BoolValue") and v.Name == "kills" then
             v.Parent:Destroy()
@@ -75,7 +75,7 @@ ss:Slider("WalkSpeed",0,500,16,function(t)
    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = t
 end)
  
-ss:Slider("JumpPower",0,500,50,function(t)
+ss:Slider("JumpPower (Dont use it to high)",0,500,50,function(t)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = t
  end)
  
