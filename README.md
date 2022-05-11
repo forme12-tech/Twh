@@ -13,9 +13,9 @@ ss:Button("Bypass Anticheat",function()
  
             if info.name == 'kick' then
                 if (hookfunction(info.func, function(...)end)) then
-                    print'succesfully hooked kick'
+                    print'succesfully fuck that anticheat'
                 else
-                    print'failed to hook kick'
+                    print'failed to fuck the anticheat'
                 end
             end
         end
@@ -82,10 +82,6 @@ ss:Slider("JumpPower",0,500,50,function(t)
 ss:Button("Reset Walk and Jump",function()
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-end)
- 
-ss:Button("IY (Infinite Yield)",function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
  
 ss:Button("Anti Lag",function()
