@@ -39,7 +39,7 @@ ss:Button("Bypass Anticheat",function()
     script2:Destroy()
 end)
  
-ss:Button("Go To End",function()
+ss:Button("Go To The End",function()
     local endzone = game.Workspace.tower.sections.finish.FinishGlow.CFrame
  
     local player = game.Players.LocalPlayer.Character
